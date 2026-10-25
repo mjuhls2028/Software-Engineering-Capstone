@@ -9,4 +9,4 @@
 >Class diagrams, 
 >Introduction, Description model, and System sequence charts for system requirements, 
 >State charts, 
-> and Overall changes and updates to documents
+> and Overall changes and updates to documents.
