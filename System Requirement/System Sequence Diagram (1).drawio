@@ -1,0 +1,588 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="lK6JuLKpru_XYSU4YAsO">
+    <mxGraphModel dx="1542" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="710" as="sourcePoint" />
+            <mxPoint x="280" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="594.5" y="710" as="sourcePoint" />
+            <mxPoint x="594.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System Loads Lesson">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="410" as="sourcePoint" />
+            <mxPoint x="250" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User selects lesson">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User chooses text or video lesson">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="460" as="sourcePoint" />
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System launches lesson content">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="520" as="sourcePoint" />
+            <mxPoint x="250" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User begins engaging with lesson">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="570" as="sourcePoint" />
+            <mxPoint x="590" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System records lesson progress&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="620" as="sourcePoint" />
+            <mxPoint x="250" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System awards points to user based on progress/completion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="670" as="sourcePoint" />
+            <mxPoint x="250" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-29" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-30" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="1430" as="sourcePoint" />
+            <mxPoint x="280" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-33" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="1430" as="sourcePoint" />
+            <mxPoint x="594.5" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System validates completion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1170" as="sourcePoint" />
+            <mxPoint x="250" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User completes all sections">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="1110" as="sourcePoint" />
+            <mxPoint x="600" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User submits lesson as complete">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="1220" as="sourcePoint" />
+            <mxPoint x="600" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System marks lesson completed">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1280" as="sourcePoint" />
+            <mxPoint x="250" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User proceeds to feedback or quiz">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="1330" as="sourcePoint" />
+            <mxPoint x="590" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System unlocks included use cases">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1380" as="sourcePoint" />
+            <mxPoint x="250" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Access Lesson" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Complete Lesson" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-56" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-57" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-60" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-58" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="2110" as="sourcePoint" />
+            <mxPoint x="280" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="2110" as="sourcePoint" />
+            <mxPoint x="594.5" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-62" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System analyzes results">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1850" as="sourcePoint" />
+            <mxPoint x="250" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User completes activity">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="1790" as="sourcePoint" />
+            <mxPoint x="600" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User requests feedback or receives automatic feedback">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="1900" as="sourcePoint" />
+            <mxPoint x="600" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System presents strengths/weaknesses">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1960" as="sourcePoint" />
+            <mxPoint x="250" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User reviews feedback">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="2010" as="sourcePoint" />
+            <mxPoint x="590" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-67" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System may suggest next lessons">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="2060" as="sourcePoint" />
+            <mxPoint x="250" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Recieve Feedback" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-69" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-70" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-73" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-71" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="2850" as="sourcePoint" />
+            <mxPoint x="280" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-74" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-72" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="2840" as="sourcePoint" />
+            <mxPoint x="594.5" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-75" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System loads questions">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="2510" as="sourcePoint" />
+            <mxPoint x="250" y="2510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-76" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User starts quiz">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="2450" as="sourcePoint" />
+            <mxPoint x="600" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-77" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User answers questions">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="2560" as="sourcePoint" />
+            <mxPoint x="600" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-78" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System records responses">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="2620" as="sourcePoint" />
+            <mxPoint x="250" y="2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-79" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User submits quiz">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="2670" as="sourcePoint" />
+            <mxPoint x="590" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-80" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System grades quiz">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="2720" as="sourcePoint" />
+            <mxPoint x="250" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Complete Lesson" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-83" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User views results">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="255" y="2770" as="sourcePoint" />
+            <mxPoint x="595" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-84" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System stores score and feedback">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="2820" as="sourcePoint" />
+            <mxPoint x="255" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-87" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-88" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-91" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-89" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="3620" as="sourcePoint" />
+            <mxPoint x="280" y="3240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-92" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-90" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="3610" as="sourcePoint" />
+            <mxPoint x="594.5" y="3190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-93" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System loads game">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="3280" as="sourcePoint" />
+            <mxPoint x="250" y="3280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-94" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User selects minigame">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="3220" as="sourcePoint" />
+            <mxPoint x="600" y="3220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-95" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User plays through challenges">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="3330" as="sourcePoint" />
+            <mxPoint x="600" y="3330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-96" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System tracks responses/progress">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="3390" as="sourcePoint" />
+            <mxPoint x="250" y="3390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-97" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User completes game">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="3440" as="sourcePoint" />
+            <mxPoint x="590" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-98" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System records performacne">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="3490" as="sourcePoint" />
+            <mxPoint x="250" y="3490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Play Minigame" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="2900" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-100" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User views outcome">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="255" y="3540" as="sourcePoint" />
+            <mxPoint x="595" y="3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-101" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System may award progress, recommended next steps,&lt;div&gt;and deliver feedback&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="3590" as="sourcePoint" />
+            <mxPoint x="255" y="3590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-103" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="3740" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-104" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="3740" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="3850" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="3850" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-107" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-105" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="4280" as="sourcePoint" />
+            <mxPoint x="280" y="3990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-106" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="4270" as="sourcePoint" />
+            <mxPoint x="594.5" y="3940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-109" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System presents or selects difficulty options">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4030" as="sourcePoint" />
+            <mxPoint x="250" y="4030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-110" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User requests difficulty change or system detects need">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="3970" as="sourcePoint" />
+            <mxPoint x="600" y="3970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-111" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User confirms option">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="4080" as="sourcePoint" />
+            <mxPoint x="600" y="4080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-112" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System updates challenge level">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4140" as="sourcePoint" />
+            <mxPoint x="250" y="4140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-113" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User continues activity">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="4190" as="sourcePoint" />
+            <mxPoint x="590" y="4190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-114" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System delivers adjusted content">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4240" as="sourcePoint" />
+            <mxPoint x="250" y="4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Adjust Difficulty" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="3650" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-133" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="4410" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-134" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="4410" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="4520" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="4520" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-135" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="4950" as="sourcePoint" />
+            <mxPoint x="280" y="4660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-138" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-136" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="4940" as="sourcePoint" />
+            <mxPoint x="594.5" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-139" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System analyzes user data through AI and generates&lt;div&gt;recommendations&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4700" as="sourcePoint" />
+            <mxPoint x="250" y="4700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-140" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User opens recommendations or recommendation&lt;div&gt;requested by AI&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="4640" as="sourcePoint" />
+            <mxPoint x="600" y="4640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-141" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User views suggested content">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="4750" as="sourcePoint" />
+            <mxPoint x="600" y="4750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-142" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System displays ranked recommendations">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4810" as="sourcePoint" />
+            <mxPoint x="250" y="4810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-143" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User selects recommendation">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="4860" as="sourcePoint" />
+            <mxPoint x="590" y="4860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-144" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System opens suggested content through associated use case">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="4910" as="sourcePoint" />
+            <mxPoint x="250" y="4910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Recommended Content" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="4320" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-149" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="240" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-150" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="580" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="195" y="5180" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="5180" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-153" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-151" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="5700" as="sourcePoint" />
+            <mxPoint x="280" y="5320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-154" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="gxz3tBY1ZVHssJgJbI5l-152" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="595" y="5690" as="sourcePoint" />
+            <mxPoint x="594.5" y="5270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-155" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System loads virtual environment">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="5360" as="sourcePoint" />
+            <mxPoint x="250" y="5360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-156" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User starts simulator">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="5300" as="sourcePoint" />
+            <mxPoint x="600" y="5300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-157" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User performs simulated tasks">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="5410" as="sourcePoint" />
+            <mxPoint x="600" y="5410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-158" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System responds to user interactions">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="5470" as="sourcePoint" />
+            <mxPoint x="250" y="5470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-159" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="User completes simulation activity">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="255" y="5550" as="sourcePoint" />
+            <mxPoint x="595" y="5550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-160" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System tracks actions and progress">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="5510" as="sourcePoint" />
+            <mxPoint x="255" y="5510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User Virtual Simulator" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="4980" as="geometry" />
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-163" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System evaluates performance">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="5590" as="sourcePoint" />
+            <mxPoint x="255" y="5590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-164" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System provides results and feedback">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="5630" as="sourcePoint" />
+            <mxPoint x="255" y="5630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gxz3tBY1ZVHssJgJbI5l-165" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="System awards points or progress toward achievements">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="5670" as="sourcePoint" />
+            <mxPoint x="255" y="5670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
